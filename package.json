@@ -1,0 +1,12 @@
+{
+	"name": "nodejs-tdd",
+	"version": "1.0.0",
+	"description": "A Node.js API using SOLID design pattern and TDD (Test Driven Development)",
+	"main": "index.js",
+	"repository": "https://github.com/AthirsonSilva/nodejs-tdd.git",
+	"author": "Athirson <Athirsonarceus@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"eslint": "^8.28.0"
+	}
+}
