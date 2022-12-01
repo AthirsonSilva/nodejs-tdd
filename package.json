@@ -1,12 +1,26 @@
 {
 	"name": "nodejs-tdd",
 	"version": "1.0.0",
-	"description": "A Node.js API using SOLID design pattern and TDD (Test Driven Development)",
+	"description": "A simple API made in Node.js using TDD (Test Driven Development) approach and SOLID architeture",
 	"main": "index.js",
-	"repository": "https://github.com/AthirsonSilva/nodejs-tdd.git",
-	"author": "Athirson <Athirsonarceus@gmail.com>",
-	"license": "MIT",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AthirsonSilva/nodejs-tdd.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/AthirsonSilva/nodejs-tdd/issues"
+	},
+	"homepage": "https://github.com/AthirsonSilva/nodejs-tdd#readme",
 	"devDependencies": {
-		"eslint": "^8.28.0"
+		"@types/node": "^18.11.10",
+		"typescript": "^4.9.3"
 	}
 }
