@@ -21,6 +21,7 @@
 	"homepage": "https://github.com/AthirsonSilva/nodejs-tdd#readme",
 	"devDependencies": {
 		"@types/node": "^18.11.10",
+		"date-fns": "^2.29.3",
 		"typescript": "^4.9.3",
 		"vitest": "^0.25.3"
 	}

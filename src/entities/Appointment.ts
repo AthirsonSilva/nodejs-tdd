@@ -40,6 +40,16 @@ export class Appointment implements AppointmentProps {
 	}
 
 	constructor(props: AppointmentProps) {
+		const { customer, startsAt, endsAt } = props
+
+		if (endsAt <= startsAt) {
+			throw new Error('End date must be after start date')
+		} else if (startsAt <= new Date()) {
+			throw new Error('Start date must be in the future')
+		} else if (customer.length <= 3) {
+			throw new Error('Customer name must be at least 3 characters long')
+		}
+
 		this.props = props
 	}
 }
